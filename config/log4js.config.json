@@ -1,0 +1,21 @@
+{
+  "appenders": {
+    "console": { "type": "console" },
+    "file": {
+    "type": "file",
+    "filename": "./log/log",
+    "alwaysIncludePattern": true,
+    "pattern": "yyyy-MM-dd.log",
+    "daysToKepp": 5,
+    "backups": 3,
+    "compress": true,
+    "encoding": "utf8"
+    }
+  },
+  "categories": {
+    "default": {
+      "appenders": ["console", "file"],
+      "level": "debug"
+    }
+  }
+}

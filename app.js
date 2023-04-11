@@ -1,11 +1,14 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const Logger = require('./utils/logger')
+const app = express()
 
 if (process.env.NODE_ENV !== 'production') {
-  require('dotenv').config();
+  require('dotenv').config()
 }
 
-const port = process.env.PORT;
+const logger = Logger.getLogger('app.js')
+const port = process.env.PORT
 
-
-app.listen(port, () => {console.log(`App is running on port ${port}`)});
+app.listen(port, () => {
+  logger.info(`App is running on port ${port}`)
+})
