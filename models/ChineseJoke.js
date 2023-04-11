@@ -8,7 +8,6 @@ const chinesejokeSchema = new Schema({
   },
   answer: {
     type: String,
-    required: true,
     default: ''
   }
 })
