@@ -10,7 +10,5 @@
     "parserOptions": {
         "ecmaVersion": "latest"
     },
-    "rules": {
-        "linebreak-style": ["error", "windows"]
-    }
+    "rules": {}
 }
