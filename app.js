@@ -6,6 +6,8 @@ if (process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
 }
 
+require('./database/mongoose')
+
 const logger = Logger.getLogger('app.js')
 const port = process.env.PORT
 
