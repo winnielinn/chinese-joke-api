@@ -19,6 +19,7 @@
     "mongoose": "^7.0.3"
   },
   "devDependencies": {
+    "@vercel/node": "^2.10.3",
     "eslint": "^8.38.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
