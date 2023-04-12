@@ -24,6 +24,10 @@ app.get('/api/chinesejoke', async (_req, res) => {
   }
 })
 
+app.get('/', (_req, res) => {
+  return res.send('Welcome to use joke API')
+})
+
 app.listen(port, () => {
   logger.info(`App is running on port ${port}`)
 })
