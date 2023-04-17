@@ -47,13 +47,13 @@ This API only offers Chinese jokes now. If you want it to support jokes of vario
 1. Clone this project to local
 
 ```
-$ git clone https://github.com/winnielinn/chinese-joke-api.git
+$ git clone https://github.com/winnielinn/joke-api.git
 ```
 
 2. Change directory and install all dependencies
 
 ```
-$ cd chinese-joke-api
+$ cd joke-api
 $ npm install
 ```
 
